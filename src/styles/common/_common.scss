@@ -1,3 +1,15 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
+  padding-top: 99px;
   font-family: $font;
+}
+
+img {
+  display: block;
+  max-width: 100%;
 }
