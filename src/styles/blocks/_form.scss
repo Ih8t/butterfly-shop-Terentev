@@ -1,4 +1,33 @@
+.form {
+    display: flex;
+    width: 33.33%;
+}
 
-.promo-inner {
-    @include inner;
+
+.form-field {
+   
+    margin: 90px 20px;
+    border: 1px solid green;
+
+}
+
+.form-field-half {}
+
+.form-label {
+    width: 412px;
+    height: 104px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    color: $color-dark;
+}
+
+.form-input {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 34px;
 }

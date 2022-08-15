@@ -21,13 +21,15 @@
 }
 
 .logo {
-    margin-right: auto;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 42px;
-    line-height: 57px;
-    text-decoration: none;
-    color: #FFFFFF;
+
+    @include logo
+    // margin-right: auto;
+    // font-style: normal;
+    // font-weight: 600;
+    // font-size: 42px;
+    // line-height: 57px;
+    // text-decoration: none;
+    // color: #FFFFFF;
 
 
 }

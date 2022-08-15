@@ -1,0 +1,49 @@
+.btn {
+    display: inline-block;
+    justify-content: center;
+    margin: 100px 384px;
+    padding: 30px 36px 31px 48px;
+    width: 497px;
+    height: 104px;
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 42px;
+    line-height: 57px;
+    color: #FFFFFF;
+    background-color: $color-red;
+    align-items: center;
+    text-align: center;
+    border-radius: 5px;
+    border: none;
+}
+
+.btn-menu {
+    display: block;
+    justify-content: center;
+    padding: 33px 25px;
+    font-family: 'Open Sans';
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    color: #FFFFFF;
+    background-color: $color-red;
+}
+
+.btn-form {
+    display: block;
+    margin: 90px 20px;
+    padding: 34px 140px 36px 150px;
+    width: 412px;
+    height: 104px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 34px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    background-color: $color-red;
+    border-radius: 5px;
+    border: none;
+}

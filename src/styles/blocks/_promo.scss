@@ -1,32 +1,26 @@
 .promo {
   display: block;
-  background-image: url(../../../www/images/img-promo.png);
-  
+  background-image: url(pictures/Rectangle1.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
 
-  // padding: 50px 0;
-  // background-color: lightsteelblue;
-  // border-radius: 10px;
+
 }
 
 .promo-inner {
   @include inner;
  
-
-  // @media (max-width: 1279px) {
-  //   width: auto;
-  //   max-width: 1024px;
-  // }
 }
 
-// .promo-ttl {
-//   font-size: $h1-fz-desktop;
-//   font-weight: $h1-fw;
+.promo-title {
+  margin: 200px 0 100px;
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 72px;
+  line-height: 98px;
+  text-align: center;
+  // color: #FFFFFF;
 
-//   @media (max-width: 1279px) {
-//     font-size: $h1-fz-tablet;
-//   }
-
-//   @media (max-width: 669px) {
-//     font-size: $h1-fz-mobile;
-//   }
-// }
+}
