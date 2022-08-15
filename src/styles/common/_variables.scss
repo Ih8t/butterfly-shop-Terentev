@@ -10,5 +10,13 @@ $h1-fw: 400;
 $color-red:#FF2D2D;
 $color-dark:#333333;
 // indents
+$grap: 30px;
+$half-grap: calc($grap / 2);
 
 // breakpoints
+$mobile: 320px;
+$tablet:720px;
+$desktop:1280px;
+
+$mobile-max: $tablet - 1;
+$tablet-max:$desktop - 1;
