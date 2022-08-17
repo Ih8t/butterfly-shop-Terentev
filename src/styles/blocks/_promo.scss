@@ -1,16 +1,20 @@
 .promo {
   display: block;
-  background-image: url(pictures/Rectangle1.png);
+  // background-image: url(pictures/2var.jpg);
+  // background-repeat: no-repeat;
+  // background-size:cover;
+  // background-position: center;
+  background-image: url(../blocks/pictures/2var.jpg);
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
   background-position: center;
-
+  background-color: rgba(75, 10, 100, .03);
 
 }
 
 .promo-inner {
   @include inner;
- 
+
 }
 
 .promo-title {
@@ -21,6 +25,6 @@
   font-size: 72px;
   line-height: 98px;
   text-align: center;
-  // color: #FFFFFF;
+  color: #FFFFFF;
 
 }

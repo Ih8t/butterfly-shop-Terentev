@@ -1,0 +1,37 @@
+.portfolio {}
+
+.portfolio-inner {
+    @include inner;
+}
+
+.portfolio-title {
+    margin-top: 130px;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 87px;
+    text-align: center;
+    color: $color-dark;
+}
+
+.portfolio-item {
+    display: flex;
+    flex-wrap: nowrap;
+
+    // justify-content: space-between;
+    width: 25%;
+    padding: 0;
+    margin-left: -$half-grap;
+    margin-right: -$half-grap;
+
+
+}
+
+.img-portfolio {
+    margin: 100px 20px 120px;
+
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 304px;
+    height: 304px;
+}
