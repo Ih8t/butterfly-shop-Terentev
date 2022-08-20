@@ -6,6 +6,8 @@
     z-index: 1000;
     // padding: ;
     background-color: $color-dark;
+
+   
 }
 
 
@@ -22,15 +24,13 @@
 
 .logo {
 
-    @include logo
-    // margin-right: auto;
-    // font-style: normal;
-    // font-weight: 600;
-    // font-size: 42px;
-    // line-height: 57px;
-    // text-decoration: none;
-    // color: #FFFFFF;
-
+    @include logo;
+    
+    @media (max-width:$tablet-max) {
+       margin: 20px 604px 21px 10px;
+        font-size: 36px;
+        line-height: 49px;   
+    }
 
 }
 

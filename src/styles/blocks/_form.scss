@@ -1,11 +1,16 @@
 .form {
     display: flex;
-    width: 33.33%;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-left: -$half-grap;
+    margin-right: -$half-grap;
+    
+    // width: 33.33%;
 }
 
 
 .form-field {
-   
+
     margin: 90px 20px;
     border: 1px solid green;
 
@@ -14,6 +19,7 @@
 .form-field-half {}
 
 .form-label {
+
     width: 412px;
     height: 104px;
     font-family: 'Open Sans';
@@ -30,4 +36,9 @@
     font-weight: 400;
     font-size: 28px;
     line-height: 34px;
+    width: 100%;
+    padding: 35px 30px;
+    color: $color-dark;
+    border-radius: 6px;
+    border: none;
 }
