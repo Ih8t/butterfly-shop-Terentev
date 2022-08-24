@@ -7,32 +7,55 @@
     // padding: ;
     background-color: $color-dark;
 
-   
+    @media (max-width: $tablet-max) {
+        padding: 0;
+    }
+
+    @media (max-width: $mobile-max) {
+        padding: 16px 0;
+    }
 }
 
 
 
 .header-inner {
     @include inner;
+
 }
 
 .header-wrap {
     display: flex;
     align-items: center;
-    
+
+    @media (max-width: $mobile-max) {
+        justify-content: space-around;
+    }
+
 }
 
 .logo {
 
     @include logo;
-    
+
     @media (max-width:$tablet-max) {
-       margin: 20px 604px 21px 10px;
+        margin: 20px 604px 21px 10px;
         font-size: 36px;
-        line-height: 49px;   
+        line-height: 49px;
+    }
+
+    @media (max-width: $mobile-max) {
+        font-size: 28px;
+        line-height: 38px;
     }
 
 }
 
+.burger {
+    display: none;
+    color: #fff;
 
-
+    @media (max-width: $mobile-max) {
+        display: block;
+       
+    }
+}

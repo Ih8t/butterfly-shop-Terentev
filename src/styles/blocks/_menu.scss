@@ -1,11 +1,45 @@
+.menu {
+    @media (max-width: $mobile-max) {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        // display: none;
+        width: 100%;
+        padding: 20px 0;
+        background-color: $color-dark;
+        border-top: 1px solid $color-dark;
+        text-align: center;
+
+    }
+
+}
+
 ul {
     display: flex;
     list-style: none;
+
+    @media (max-width: $mobile-max) {
+        // display: flex;
+        // flex-direction: row;
+        // justify-content: center;
+        display: block;
+        width: 100%;
+        align-items: center;
+        padding: 33px 25px;
+    }
 }
 
 li {
     max-width: 0 15px;
     padding: 33px 25px;
+
+    @media (max-width: $mobile-max) {
+        margin: 25px 0 10px;
+        padding: 0;
+       
+    }
+
+
 }
 
 a {
@@ -16,4 +50,10 @@ a {
     line-height: 24px;
     color: #FFFFFF;
     text-decoration: none;
+
+    @media (max-width: $mobile-max) {
+        
+        font-size: 14px;
+        line-height: 24px;
+    }
 }

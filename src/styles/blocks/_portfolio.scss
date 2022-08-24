@@ -21,29 +21,30 @@
 
 
 .portfolio-link {
-    // margin-left: -$grap;
-    // margin-right: -$grap;
+    margin-left: -10px;
+    margin-right: -10px;
 
     @media (max-width:$tablet-max) {
         flex-wrap: wrap;
 
-        
+
     }
 }
 
 .portfolio-item {
     position: relative;
-    margin: 0 ;
-    display: flex;
-    flex-wrap: wrap;
-    // justify-content: space-around;
-    width: 25%;
+    margin: 0 10px;
+    // display: flex;
+    // flex-wrap: wrap;
+    //  justify-content: space-around;
+    // // width: 25%;
+    background-position: center;
     padding: 0;
 
     @media (max-width:$tablet-max) {
         // width: 45%;
-        
-      }
+
+    }
 
 }
 
@@ -64,7 +65,7 @@
     left: 0px;
     bottom: 0px;
     width: 100%;
-    padding: 10px;
+    padding: 0px;
     color: #fff;
     background-color: rgba($color-dark, .5);
 }
